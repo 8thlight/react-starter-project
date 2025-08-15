@@ -1,5 +1,8 @@
 import { http, HttpResponse } from 'msw';
 
+// This file defines mock API handlers for product data
+// It simulates a product list and product detail endpoint
+
 const productsList = {
   page: 1,
   pageSize: 12,
